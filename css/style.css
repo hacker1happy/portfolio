@@ -10,7 +10,6 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -43,7 +42,7 @@ body{
 }
 
 section{
-    min-height: 100vh;
+    min-height: 90vh;
     padding:1rem;
 }
 
@@ -200,7 +199,7 @@ header .navbar ul li a:hover{
     color:#eee;
     padding:0 .5rem;
 }
-
+/* 
 .about .row .counter{
     flex:1 1 48rem;
     display: flex;
@@ -224,23 +223,22 @@ header .navbar ul li a:hover{
 .about .row .counter .box h3{
     font-size: 2rem;
     color:#fff;
-}
+} */
 
 .education .box-container{
-    display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
     padding:1rem 0;
     padding-left: 3rem;
 }
 
 .education .box-container .box{
-    width:27rem;
+    width: 32rem;
     margin:4rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
+    left: 12rem;
 }
 
 .education .box-container .box span{
@@ -258,7 +256,7 @@ header .navbar ul li a:hover{
 }
 
 .education .box-container .box p{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color:#eee;
     padding: 1rem 0;
 }
@@ -343,7 +341,7 @@ header .navbar ul li a:hover{
 }
 
 .contact .row .content .title{
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color:#fff;
     font-size: 3rem;
     padding-bottom: 2rem;
@@ -389,20 +387,6 @@ a:link {
     text-decoration: underline;
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* media queries  */
