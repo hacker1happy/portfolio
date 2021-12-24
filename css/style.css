@@ -259,6 +259,7 @@ header .navbar ul li a:hover{
     font-size: 1.6rem;
     color:#eee;
     padding: 1rem 0;
+    text-align: justify;
 }
 
 .education .box-container .box i{
