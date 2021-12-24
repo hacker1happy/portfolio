@@ -229,16 +229,16 @@ header .navbar ul li a:hover{
     align-items: center;
     flex-wrap: wrap;
     padding:1rem 0;
-    padding-left: 3rem;
+    padding-left: 1rem;
 }
 
 .education .box-container .box{
-    width: 32rem;
+    /* width: 80%; */
     margin:4rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
-    left: 20rem;
+    left: 5rem;
 }
 
 .education .box-container .box span{
@@ -258,7 +258,7 @@ header .navbar ul li a:hover{
 .education .box-container .box p{
     font-size: 1.6rem;
     color:#eee;
-    padding: 1rem 0;
+    padding: 2rem 80px 2px 2px;
     text-align: justify;
 }
 
@@ -356,6 +356,7 @@ header .navbar ul li a:hover{
     font-weight: normal;
 }
 
+
 .contact .row .content .info h3 i{
     padding-right: 1rem;
     color:var(--yellow);
@@ -369,15 +370,24 @@ header .navbar ul li a:hover{
 }
 
 
-.float-container {
-    padding: 20px;
-}
-
-.float-child {
-    width: 50%;
+.column {
     float: left;
+    width: 50%;
     padding: 10px;
-} 
+    height: 240px; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
 
 
 /* link actions */
@@ -458,10 +468,6 @@ a:link {
     }
  
     .education .box-container .box{
-        width:100%;
-    }
-
-    .row .box-container .box{
         width:100%;
     }
 
